@@ -1,0 +1,79 @@
+{
+    "reports": [
+      {
+        "columnHeader": {
+          "dimensions": [
+            "ga:date"
+          ],
+          "metricHeader": {
+            "metricHeaderEntries": [
+              {
+                "name": "ga:sessions",
+                "type": "INTEGER"
+              },
+              {
+                "name": "ga:bounces",
+                "type": "INTEGER"
+              }
+            ]
+          }
+        },
+        "data": {
+          "rows": [
+            {
+              "dimensions": [
+                "20210110"
+              ],
+              "metrics": [
+                {
+                  "values": [
+                    "49",
+                    "22"
+                  ]
+                }
+              ]
+            },
+            {
+              "dimensions": [
+                "20210111"
+              ],
+              "metrics": [
+                {
+                  "values": [
+                    "40",
+                    "17"
+                  ]
+                }
+              ]
+            }
+          ],
+          "totals": [
+            {
+              "values": [
+                "149",
+                "64"
+              ]
+            }
+          ],
+          "rowCount": 2,
+          "minimums": [
+            {
+              "values": [
+                "40",
+                "17"
+              ]
+            }
+          ],
+          "maximums": [
+            {
+              "values": [
+                "60",
+                "25"
+              ]
+            }
+          ],
+          "isDataGolden": true
+        }
+      }
+    ]
+  }
