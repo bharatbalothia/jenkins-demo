@@ -1,3 +1,6 @@
+
+library identifier: 'bharat-lib', retriever: modernSCM([$class: 'GitSCMSource', credentialsId: '', remote: 'https://github.com/bharatbalothia/jenkins-shared-lib.git', traits: [gitBranchDiscovery()]])
+
 pipeline {
     agent any
 
