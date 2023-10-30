@@ -7,10 +7,10 @@ pipeline {
                 echo 'Building..'
             }
         }
-        stage('Test') {
-            
-            sayHello 'Bharat Balothia: this is a normal variable call.'
-
+        stage('Test') {            
+            steps {
+                sayHello 'Bharat Balothia: this is a normal variable call.'
+            }
         }
         stage('Deploy') {
             steps {
